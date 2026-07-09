@@ -1393,3 +1393,37 @@ z-index:999;
     flex-direction:column;
     gap:25px;
 }
+@media (max-width:768px){
+
+    .contact-container{
+        grid-template-columns:1fr;
+        gap:35px;
+    }
+
+    .contact-form{
+        width:100%;
+    }
+
+    .contact-form input,
+    .contact-form select,
+    .contact-form textarea,
+    .contact-form button{
+        width:100%;
+    }
+
+    .map-section iframe{
+        height:280px;
+        box-sizing:border-box;
+
+    background:var(--black);
+    border:1px solid #333;
+    padding:16px;
+    border-radius:12px;
+    color:white;
+    font-size:16px;
+    }
+
+}
+.contact-form .btn{
+    width:100%;
+}
