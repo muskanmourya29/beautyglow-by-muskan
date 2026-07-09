@@ -198,17 +198,31 @@ background:linear-gradient(90deg,#fff,#D4AF37);
 
 }
 .hero-stats{
-
     display:flex;
-
     justify-content:center;
-
     gap:60px;
-
     margin-top:70px;
-
     flex-wrap:wrap;
+}
 
+.hero-stats div{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(8px);
+    padding:20px 30px;
+    border-radius:15px;
+    min-width:150px;
+    text-align:center;
+}
+
+.hero-stats h2{
+    color:#D4AF37;
+    font-size:38px;
+    margin-bottom:5px;
+}
+
+.hero-stats p{
+    color:white;
+    opacity:.8;
 }
 
 .hero-stats h2{
@@ -1486,4 +1500,32 @@ z-index:999;
 
 .stat-card{
     width:100%;
+}
+@media (max-width:768px){
+
+    .hero-stats{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+
+    .hero-stats div{
+        width:100%;
+        min-width:0;
+        padding:18px;
+    }
+
+    .hero-stats div:last-child{
+        grid-column:1/3;
+        justify-self:center;
+        width:70%;
+    }
+
+    .hero-stats h2{
+        font-size:26px;
+    }
+
+    .hero-stats p{
+        font-size:14px;
+    }
 }
