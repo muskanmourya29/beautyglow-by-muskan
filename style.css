@@ -1411,23 +1411,7 @@ z-index:999;
     flex-direction:column;
     gap:25px;
 }
-.tagline{
-    font-size:12px;
-    letter-spacing:2px;
-    margin-bottom:12px;
-}
 
-.hero-content h1{
-    font-size:36px;
-    line-height:1.2;
-}
-
-.hero-text{
-    font-size:16px;
-}
-
-.hero-buttons{
-    margin-top:25px;
 @media (max-width:768px){
 
     .contact-container{
