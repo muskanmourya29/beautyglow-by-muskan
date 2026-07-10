@@ -393,13 +393,7 @@ scroll-behavior:smooth;
 
 .hero-buttons{
     margin-top:25px;
-@media (max-width:700px){
 
-.hero-content{
-    margin-top:50px;
-}
-
-}
 /* ---------------- About ---------------- */
 .about{
     padding:120px 8%;
