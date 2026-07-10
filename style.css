@@ -145,6 +145,8 @@ background:linear-gradient(90deg,#fff,#D4AF37);
 
 .hero-content{
 
+    margin-top:40px;
+
     max-width:900px;
     padding-top:80px;
     z-index:2;
@@ -391,6 +393,12 @@ scroll-behavior:smooth;
 
 .hero-buttons{
     margin-top:25px;
+@media (max-width:700px){
+
+.hero-content{
+    margin-top:50px;
+}
+
 }
 /* ---------------- About ---------------- */
 .about{
